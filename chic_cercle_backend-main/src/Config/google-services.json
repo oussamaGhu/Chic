@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "790685170124",
+    "project_id": "chic-cercle",
+    "storage_bucket": "chic-cercle.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790685170124:android:ed4b057bac8bb277e38569",
+        "android_client_info": {
+          "package_name": "tn.esprit.chiccercle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKGaAFxZRNmrIPlEBD02Xy2aXVWiZzaYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
