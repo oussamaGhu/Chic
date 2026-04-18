@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <color name="black">#FF000000</color>
+        <color name="white">#FFFFFFFF</color>
+        <color name="background_color">#F4F2E9</color>
+        <color name="welcome_text_color">#3F3E3E</color>
+        <color name="subtitle_text_color">#C3C1B4</color>
+        <color name="input_field_background_color">#ECE9E1</color>
+        <color name="forgot_password_text_color">#AA8F5C</color>
+        <color name="login_button_color">#AA8F5C</color>
+        <color name="login_button_text_color">#FFFFFFFF</color>
+        <color name="sign_in_apple_text_color">#F4F2E9</color>
+        <color name="apple_text_color">#B39B6D</color>
+        <color name="powered_by_text_color">#80869A</color>
+        <color name="devicee_text_color">#AA8F5C</color>
+        <color name="circle_color">#EFEBDF</color>
+        <color name="circle">#F4F2E9</color>
+        <color name="text_create_account">#1c1c1c</color>
+        <color name="text_provide_data">#91938e</color>
+        <color name="button_continue">#ac8c5c</color>
+        <color name="text_devIce">#ac8c5c</color>
+        <color name="text_powered_by">#c2c2bb</color>
+        <color name="terms_policy">#539a75</color>
+        <color name="under_logo">#bca782</color>
+        <color name="frame1_circle">#dfd7c5</color>
+        <color name="frame2_circle">#f2efe6</color>
+
+
+
+
+
+
+
+
+</resources>
+
+
+
