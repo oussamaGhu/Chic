@@ -1,0 +1,38 @@
+services:
+  app:
+    build: .
+    container_name: chic-cercle-nestjs-backend
+    image: ahmeddouss/chic-cercle-nestjs-backend:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - SECRET=${SECRET}
+      - MONGO_URL=${MONGO_URL}
+      - EMAIL_USER=${EMAIL_USER}
+      - EMAIL_PASS=${EMAIL_PASS}
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - BASE_URL=${BASE_URL}
+      - REMOVE_BG_API_KEY=${REMOVE_BG_API_KEY}
+    env_file:
+      - .env
+    networks:
+      - ChicNetwork
+    depends_on:
+      - mongodb
+
+  mongodb:
+    image: mongo:5.0
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    networks:
+      - ChicNetwork
+    volumes:
+      - mongo_data:/data/db
+
+networks:
+  ChicNetwork:
+    driver: bridge
+
+volumes:
+  mongo_data:
