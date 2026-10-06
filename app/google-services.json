@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "736570086855",
+    "project_id": "whisk-7acde",
+    "storage_bucket": "whisk-7acde.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736570086855:android:8a6aa8fff6e4f01c50f5e2",
+        "android_client_info": {
+          "package_name": "tn.capgemini.Wisk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-TElXr5yYz-p2UfY0iVs5DkdwuMiSUPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
